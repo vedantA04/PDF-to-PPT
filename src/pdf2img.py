@@ -3,9 +3,9 @@ import os
 
 n = input("What is the name of the file?")
 def pdf2imgs(n):
-    pages = convert_from_path("C:/Users/Your_User_name/Desktop/PDF-to-PPT/"+n+".pdf" , 500) # for Windows, assuming that the codes and the pdf file are located in /Desktop/PDF-to-PPT/
-    outdir = 'Images'
-    x = 1
+    pages = convert_from_path("C:/Users/Your_User_name/Desktop/PDF-to-PPT/"+n+".pdf" , 500) #This path is for Windows, 
+    outdir = 'Images'                                                                       #assuming that the codes and the pdf file 
+    x = 1                                                                                   #are located in /Desktop/PDF-to-PPT/
     if not os.path.exists(outdir):
         os.makedirs(outdir)
     for page in pages:
