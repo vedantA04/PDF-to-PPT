@@ -2,6 +2,8 @@
 A simple tool to convert PDFs to PPTs.
 This tool automates converting PDFs containing images to well formatted PPTs.
 
+---
+
 To install dependencies run:
 ```
 pip3 install pdf2image && natsort && pptx
@@ -11,10 +13,11 @@ To use the tool:
 python3 pdf2powerpoint.py
 ```
 
+---
+
 **For Windows:**
 
-You need to install poppler as well.
-Install it from [here](http://blog.alivate.com.au/poppler-windows/ "Poppler Installation Link").
+You need to install poppler as well. You can install it from [here](http://blog.alivate.com.au/poppler-windows/ "Poppler Installation Link").
 
 After installation you need to add poppler to PATH.
 
@@ -34,6 +37,7 @@ Click on the Windows start button, search for **Edit the system environment vari
 
 Reopen your terminal.
 
+---
 
 **For Linux/Mac:**
 
