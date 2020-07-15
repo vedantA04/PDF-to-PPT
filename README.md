@@ -11,10 +11,11 @@ To use the tool:
 python3 pdf2powerpoint.py
 ```
 
-_For Windows:_
+**For Windows:**
 
 You need to install poppler.
 Install it from [here](http://blog.alivate.com.au/poppler-windows/ "Poppler Installation Link")
 
-_For Linux/Mac:_
+**For Linux/Mac:**
+
 Poppler is pre-installed.
