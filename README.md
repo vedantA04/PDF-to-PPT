@@ -16,6 +16,25 @@ python3 pdf2powerpoint.py
 You need to install poppler.
 Install it from [here](http://blog.alivate.com.au/poppler-windows/ "Poppler Installation Link")
 
+After installation you need to add poppler to PATH.
+
+Extract the archive file poppler-0.68.0_x86.7z into ```C:\Program Files```. Thus, the directory structure should look something like this:
+```
+C:
+    └ Program Files
+        └ poppler-0.68.0_x86
+            └ bin
+            └ include
+            └ lib
+            └ share
+```
+Add ```C:\Program Files\poppler-0.68.0_x86\bin``` to your system PATH by doing the following: 
+
+Click on the Windows start button, search for **Edit the system environment variables**, click on **Environment Variables...**, under *System variables*, double-click on **Path**, click on New, then paste ```C:\Program Files\poppler-0.68.0_x86\bin``` in the text box formed and click OK.
+
+Reopen your terminal.
+
+
 **For Linux/Mac:**
 
 Poppler is pre-installed.
