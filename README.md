@@ -18,7 +18,7 @@ Install it from [here](http://blog.alivate.com.au/poppler-windows/ "Poppler Inst
 
 After installation you need to add poppler to PATH.
 
-Extract the archive file poppler-0.68.0_x86.7z into ```C:\Program Files```. Thus, the directory structure should look something like this:
+Extract the downloaded file, _poppler-0.68.0_x86.7z_ into ```C:\Program Files```. The directory structure should look something like this:
 ```
 C:
     └ Program Files
