@@ -1,6 +1,7 @@
 # PDF-to-PPT
 A simple tool to convert PDFs to PPTs.
-This tool automates converting PDFs containing images to well formatted PPTs.
+
+This tool automates the process of converting PDFs containing images to well formatted PPTs.
 
 ---
 
