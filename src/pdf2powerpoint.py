@@ -1,7 +1,8 @@
-from pdf2img import pdf2imgs, n
+from pdf2img import pdf2imgs, path
 from img2powerpoint import imgs2powerpoint
 from rmfile import rmfiles
 
-pdf2imgs(n)
-imgs2powerpoint()
+outpath = input("What is the path of your presentation?")
+pdf2imgs(path)
+imgs2powerpoint(outpath)
 rmfiles()
