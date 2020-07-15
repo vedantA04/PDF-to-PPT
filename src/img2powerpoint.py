@@ -10,8 +10,8 @@ def imgs2powerpoint():
     img = image.Image("Images/Picture1.png")
     width = img.getWidth()
     height = img.getHeight()
-    prs.slide_width = Inches(width / 2400)
-    prs.slide_height = Inches(height / 2400)
+    prs.slide_width = Inches(width / 500)
+    prs.slide_height = Inches(height / 500)
     blank_slide_layout = prs.slide_layouts[6]
     imagelist = os.listdir("Images/")
     for image in natsort.natsorted(imagelist):
