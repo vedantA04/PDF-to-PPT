@@ -13,8 +13,8 @@ python3 pdf2powerpoint.py
 
 **For Windows:**
 
-You need to install poppler.
-Install it from [here](http://blog.alivate.com.au/poppler-windows/ "Poppler Installation Link")
+You need to install poppler as well.
+Install it from [here](http://blog.alivate.com.au/poppler-windows/ "Poppler Installation Link").
 
 After installation you need to add poppler to PATH.
 
