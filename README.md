@@ -9,10 +9,6 @@ To install dependencies run:
 ```
 pip3 install pdf2image && natsort && pptx && image
 ```
-To use the tool:
-```
-python3 pdf2powerpoint.py
-```
 
 ---
 
