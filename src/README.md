@@ -40,7 +40,7 @@ For eg:
 ---
 
 ## Step 5
-Copy the location where the presentation needs to be created. Paste it in the terminal when prompted and type the *presentation name* and the extension *.pptx* at the end. 
+Copy the location where the presentation needs to be created. Paste it in the terminal when prompted and type the *presentation name* with the extension *.pptx* at the end. 
 
 *Do not forget to change the back slaches to forward slashes.*
 
