@@ -1,0 +1,4 @@
+image
+natsort
+pdf2image
+python-pptx
