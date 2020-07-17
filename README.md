@@ -7,8 +7,9 @@ This tool automates the process of converting PDFs containing images to well for
 
 To install dependencies run:
 ```
-pip3 install pdf2image && natsort && pptx && image
+pip3 install -r requirements.txt
 ```
+Make sure you are in the same directory where *requirements.txt* has been downloaded.
 
 ---
 
