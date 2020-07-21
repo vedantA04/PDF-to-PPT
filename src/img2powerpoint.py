@@ -2,13 +2,12 @@ from pptx import Presentation
 from pptx.util import Inches
 import os
 import natsort
-import image
+from PIL import Image
 
 def imgs2powerpoint(outpath):
     prs = Presentation()
-    img = image.Image("Images/Picture1.png")
-    width = img.getWidth()
-    height = img.getHeight()
+    img = Image.open("Images/Picture1.png")
+    width , height = img.size
     prs.slide_width = Inches(width / 500)
     prs.slide_height = Inches(height / 500)
     blank_slide_layout = prs.slide_layouts[6]
